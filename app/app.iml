@@ -139,5 +139,6 @@
     <orderEntry type="library" exported="" name="play-services-fitness-8.4.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-panorama-8.4.0" level="project" />
     <orderEntry type="module" module-name="jokesLib" exported="" />
+    <orderEntry type="module" module-name="jokesandroidlib" exported="" />
   </component>
 </module>
