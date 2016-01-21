@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/jokesLib/jokesLib.iml" filepath="$PROJECT_DIR$/jokesLib/jokesLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jokesandroidlib/jokesandroidlib.iml" filepath="$PROJECT_DIR$/jokesandroidlib/jokesandroidlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/udacity-build-it-bigger.iml" filepath="$PROJECT_DIR$/udacity-build-it-bigger.iml" />
     </modules>
   </component>
