@@ -6,6 +6,7 @@
 
 package com.example.frosario.myapplication.backend;
 
+import com.example.Jokes;
 import com.google.api.server.spi.config.Api;
 import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.ApiNamespace;
@@ -31,6 +32,14 @@ public class MyEndpoint {
         response.setData("Hi, " + name);
 
         return response;
+    }
+
+    @ApiMethod(name = "randomJoke")
+    public MyBean randomJoke(){
+        MyBean response = new MyBean();
+        String joke = Jokes.getRandomJoke();
+        response.setData(joke);
+        return  response;
     }
 
 }
