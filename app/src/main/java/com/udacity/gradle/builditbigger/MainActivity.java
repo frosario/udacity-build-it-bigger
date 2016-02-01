@@ -1,7 +1,6 @@
 package com.udacity.gradle.builditbigger;
 
 import android.content.Context;
-import android.content.Intent;
 import android.support.v4.util.Pair;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -9,7 +8,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import com.example.frosario.jokesandroidlib.JokeActivity;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -33,13 +31,6 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
         if (id == R.id.action_settings) { return true; }
         return super.onOptionsItemSelected(item);
-    }
-
-    public void tellJoke(View view){
-//        String randomJoke = Jokes.getRandomJoke();
-        Intent intent = new Intent(this, JokeActivity.class);
-//        intent.putExtra("joke", randomJoke);
-        startActivity(intent);
     }
 
     public void cloudJoke(View view){
